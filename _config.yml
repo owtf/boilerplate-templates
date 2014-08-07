@@ -10,3 +10,4 @@ markdown:     rdiscount
 permalink:    none
 pygments:     true
 paginate:     1
+baseurl: "boilerplate-templates" 
