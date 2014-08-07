@@ -1,0 +1,12 @@
+title:        OWTF
+tagline:      'Offensive Web Testing Framework'
+description:  'OWASP OWTF, the Offensive (Web) Testing Framework, is an OWASP+PTES-focused try to unite great tools and make pen testing more efficient, written mostly in Python'
+url:          http://owtf.org
+version:      0.45
+author:		  
+  name:       'Abraham Aranguren'
+  email:      'name.surname@owasp.org'
+markdown:     rdiscount
+permalink:    none
+pygments:     true
+paginate:     1
