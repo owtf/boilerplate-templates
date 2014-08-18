@@ -3,7 +3,7 @@ layout: post
 title: Password Storage Cheat Sheet
 ---
 <!---
-Password storage
+Password storage shet
 -->
 Synopsis
 ---------------
@@ -20,7 +20,7 @@ Mitigation
 *  Design password storage assuming eventual compromise.
 
 For more information visit,
-[OWASP Password Storage Cheat Sheet](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
+[OWASP Password Storage Cheat Sheet] https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet
 
 
 CVSS Base Score:

@@ -11,13 +11,13 @@ C-Based Toolchain Hardening is a treatment of project settings that will help yo
 
 Description
 ------------
-There are four areas to be examined when hardening the toolchain: configuration, preprocessor, compiler, and linker. Nearly all areas are overlooked or neglected when setting up a project.For a more in-depth treatment of this topic view:- [OWASP Guide on CBased Toolchain hardening](https://www.owasp.org/index.php/C-Based_Toolchain_Hardening)
+There are four areas to be examined when hardening the toolchain: configuration, preprocessor, compiler, and linker. Nearly all areas are overlooked or neglected when setting up a project. For a more in-depth treatment of this topic view:- [OWASP Guide on CBased Toolchain hardening](https://www.owasp.org/index.php/C-Based_Toolchain_Hardening)
 
 Mitigation
 -----------
-Scanners and tools cannot verify cryptographic weakness. Best way is the review of code,cryptographic algorithm and key management.  
+Scanners and tools cannot verify cryptographic weakness. Best way is the review of code, cryptographic algorithm and key management.  
 
- - Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
+ - Ensure strong standard algorithms and strong keys are used, managed and backed up separately.
  - Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
  - Ensure all keys and password are protected from unauthorized access.
 

@@ -12,7 +12,7 @@ The .NET Framework is Microsoft's principal platform for enterprise development.
 
 Description
 ------------------------
-It is the supporting API for ASP.NET, Windows Desktop applications, Windows Communication Foundation services, SharePoint, Visual Studio Tools for Office and other technologies.The .NET Framework is kept up-to-date by Microsoft with the Windows Update service. Developers do not normally need to run separate updates to the Framework. 
+It is the supporting API for ASP.NET, Windows Desktop applications, Windows Communication Foundation services, SharePoint, Visual Studio Tools for Office and other technologies. The .NET Framework is kept up-to-date by Microsoft with the Windows Update service. Developers do not normally need to run separate updates to the Framework. 
 
 To know more about the .NET security project visit:- For more details: [OWASP .NET Project](https://www.owasp.org/index.php/Category:OWASP_.NET_Project) 
 

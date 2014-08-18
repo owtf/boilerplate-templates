@@ -7,7 +7,7 @@ ClickJacking
 -->
 Synopsis:
 ----------------
-Clickjacking (UI redress attack) happens when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when they were intending to click on the the top level page. 
+Clickjacking (UI redress attack) happens when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when the user was intending to click on the the top level page. 
 
 Description:
 ----------------------

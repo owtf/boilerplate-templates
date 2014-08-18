@@ -11,7 +11,7 @@ CSRF is an attack which forces an end user to execute unwanted actions on a web 
 
 Description
 ------------------
-CSRF attack occurs when a malicious Web site, email, blog, instant message, or program causes a user’s Web browser to perform an unwanted action on a trusted site for which the user is currently authenticated. CSRF attacks generally target functions that cause a state change on the server but can also be used to access sensitive data.
+CSRF attack occurs when a malicious Website, email, blog, instant message, or program causes a user’s Web browser to perform an unwanted action on a trusted site for which the user is currently authenticated. CSRF attacks generally target functions that cause a state change on the server but can also be used to access sensitive data.
 
 To know more about CSRF visit: [ OWASP Guide on Cross-Site Request Forgery](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
 
