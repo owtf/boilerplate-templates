@@ -9,4 +9,4 @@ markdown:     kramdown
 highlighter:    true
 future:      true
 lsi:         false
-baseurl:  .
+baseurl:  http://owtf.github.io/boilerplate-templates
