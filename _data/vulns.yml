@@ -1,0 +1,29 @@
+- name: "Cross Site Scripting"
+  id: 1
+  url: /templates/xss
+  author: "delta24"
+
+- name: "SQL Injection"
+  id: 2
+  url: /templates/sql-injection
+  author: "delta24"
+
+- name: "Cross Site Request Forgery"
+  id: 3
+  url: /templates/csrf
+  author: "delta24"
+
+- name: "Clickjacking"
+  id: 4
+  url: /templates/clickjacking
+  author: "delta24"
+
+- name: "Broken Authentication and Session Management"
+  id: 5
+  url: /templates/broken-auth-and-session
+  author: "delta24"
+
+- name: "Unvalidated Redirects and Forwards"
+  id: 6
+  url: /templates/unvalidated-redirects
+  author: "delta24"

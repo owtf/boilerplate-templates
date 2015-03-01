@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>
+    Clickjacking &middot; 
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/favicon.png">
+</head>
+
+
+  <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">OWTF Boilerplate Templates</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Blog</a></li>
+              <li><a href="#">Github</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="container">
+    <ul class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/templates/">Templates</a></li>
+  <li class="active">Clickjacking</li>
+</ul>
+
+<div class="bs-component">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Cross Site Scripting (XSS)</h3>
+    </div>
+    <div class="panel-body" markdown="1">
+<h2 id="synopsis">Synopsis:</h2>
+<p>Clickjacking (UI redress attack) happens when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when the user was intending to click on the the top level page.</p>
+
+<h2 id="description">Description:</h2>
+<p>Clickjacking is a malicious technique that consists of deceiving a user into interacting with multiple transparent or opaque layers to trick a user into clicking on a button or link which they did not intend to.</p>
+
+<p>It can be used in combination with other attacks, which could potentially send unauthorized commands or reveal confidential data while the victim is spoofed and interacting on seemingly harmless web page.
+For more details view:- <a href="https://www.owasp.org/index.php/Clickjacking">OWASP Guide on Clickjacking</a></p>
+
+<h2 id="mitigation">Mitigation:</h2>
+<ul>
+  <li>
+    <p>Include “frame-breaking” functionality which prevents other web pages from framing the site you wish to defend.</p>
+  </li>
+  <li>
+    <p>Using X-Frame-Options Header types like DENY,SAMEORIGIN,ALLOW-FROM uri.</p>
+  </li>
+</ul>
+
+<p>To know more about implementing frame-breaking visit :- <a href="https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet">OWASP Clickjacking Defence Cheat Sheet</a></p>
+
+<p>To view details on the testing of clickjacking visit:- <a href="https://www.owasp.org/index.php/Testing_for_Clickjacking_(OWASP-CS-004)">OWASP Testing for Clickjacking</a></p>
+
+<h2 id="cvss-base-score">CVSS Base Score:</h2>
+<p><a href="http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/AU:N/C:N/I:P/A:N)&amp;version=2.0"> 4.3 (AV:N/AC:M/AU:N/C:N/I:P/A:N)
+</a></p>
+
+</div>
+</div>
+</div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/typeahead.bundle.js"></script>
+  <script type="text/javascript" src="/assets/js/app.js"></script>
+  </body>
+</html>

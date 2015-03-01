@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<ul class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active"><a href="/templates/">Templates</a></li>
+</ul>
+
+<h1> Available templates </h1>
+<hr/>
+
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Vulnerability Name</th>
+      <th>URL</th>
+      <th>Added on</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for vuln in site.data.vulns %}
+    <tr>
+      <td>{{ vuln.id }}</td>
+      <td>{{ vuln.name }}</td>
+      <td><a href="{{ site.baseurl }}{{ vuln.url }}">Here</a></td>
+      <td>{{ site.time }}</td>
+      <td><a href="https://github.com/{{ vuln.author }}">{{ vuln.author }}</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

@@ -1,39 +1,20 @@
 ---
-layout: default
+layout:  default
 ---
+    <div class="panel panel-primary">
+      <div class="panel-heading">Boilerplate Templates</div>
+      <div class="panel-body">
+          <p><b>OWTF</b> wants to help penetration testers use their time most effectively, even if they don’t use <b>OWTF</b> directly. Hence this project was born!</p>
+          <p>Any penetration tester can easily copy-paste anything from the templates into their report, just using a browser with an internet connection (i.e. even if not using <b>OWTF</b>).</p>
+      </div>
+    </div>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+  <div class="row">
+    <h2 style="text-align:center;"><b>Search by vulnerability</b></h2>
   </div>
-  {% endfor %}
-</div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}/page{{paginator.next_page}}" class="older">Older</a>
-  {% else %}
-    <span class="next">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a href="/" class="newer">Newer</a>
-    {% else %}
-      <a href="{{ site.baseurl }}/page{{paginator.previous_page}}" class="newer">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="previous">Newer</span>
-    
-    
-  {% endif %}
-</div>
+  <div class="row">
+      <div class="form-group" id="vuln">
+          <input style="align: center; width: 600%;" type="text" class="form-control input-lg typeahead" placeholder="eg. cross site scripting">
+      </div>
+  </div>
