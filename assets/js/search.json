@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Cross Site Scripting",
+    "url": "{{ site.baseurl }}/templates/xss",
+  },
+  {
+    "name": "SQL Injection",
+    "url": "{{ site.baseurl }}/templates/sql-injection",
+  },
+  {
+    "name": "Cross Site Request Forgery",
+    "url": "{{ site.baseurl }}/templates/csrf",
+  },
+  {
+    "name": "Clickjacking",
+    "url": "{{ site.baseurl }}/templates/clickjacking",
+  },
+  {
+    "name": "Broken Authentication and Session Management",
+    "url": "{{ site.baseurl }}/templates/broken-auth-and-session",
+  },
+  {
+    "name": "Unvalidated Redirects and Forwards",
+    "url": "{{ site.baseurl }}/templates/unvalidated-redirects",
+  }
+]
