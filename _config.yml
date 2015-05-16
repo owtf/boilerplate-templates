@@ -8,5 +8,4 @@ author:
 markdown:     kramdown
 highlighter:    true
 future:      true
-lsi:         false
 baseurl:  http://owtf.github.io/boilerplate-templates
