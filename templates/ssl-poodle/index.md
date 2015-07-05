@@ -16,6 +16,7 @@ POODLE vulnerability relates to the flaw in CBC ciphers used in SSLv3. The attac
 
 
 For more information on POODLE:-
+
 [POODLE Official announcement website](http://poodlebleed.com/) 
 
 [POODLE attacks on SSLv3 at ImperialViolet](https://www.imperialviolet.org/2014/10/14/poodle.html) 
@@ -34,7 +35,9 @@ The vulnerability affects the server which support SSL version 3.0 using CBC cip
 For more details:
 
 [OWASP Transport Layer Protection Cheat Sheet](http://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
+
 [Testing for SSL TLS](http://www.owasp.org/index.php/Testing_for_SSL-TLS_%28OWASP-CM-001%29)
+
 [OWASP TOP 10 2013 Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure)
 
 
