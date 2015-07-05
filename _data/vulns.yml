@@ -27,3 +27,8 @@
   id: 6
   url: /templates/unvalidated-redirects
   author: "delta24"
+
+- name: "SSL v3 POODLE"
+  id: 7
+  url: /templates/ssl-poodle
+  author: "anantshri"

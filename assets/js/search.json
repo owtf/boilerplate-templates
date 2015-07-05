@@ -23,4 +23,8 @@
     "name": "Unvalidated Redirects and Forwards",
     "url": "{{ site.baseurl }}/templates/unvalidated-redirects",
   }
+  {
+    "name": "SSL v3 POODLE",
+    "url": "{{ site.baseurl }}/templates/ssl-poodle",
+  }
 ]
