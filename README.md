@@ -19,5 +19,5 @@ For `ssi-injection` it would be:
     url: /templates/ssi-injection
     author: "<your name>"
   ```
-5. Additionally, if you want to add the vulnerability to the search, add the relevant entry to the `assets/search.json`. 
+5. Additionally, if you want to add the vulnerability to the search, add the relevant entry to the `assets/js/search.json`. 
 6. All done, open a pull request!
