@@ -35,13 +35,10 @@ x.head=D.parentNode;g.onError=ca;g.createNode=function(b){var c=b.xhtml?document
 s=E.pop(),O=E.length?E.join("/")+"/":"./",q.baseUrl=O),s=s.replace(Q,""),g.jsExtRegExp.test(s)&&(s=I),q.deps=q.deps?q.deps.concat(s):[s],!0});define=function(b,c,d){var e,g;"string"!==typeof b&&(d=c,c=b,b=null);H(c)||(d=c,c=null);!c&&G(d)&&(c=[],d.length&&(d.toString().replace(ka,"").replace(la,function(b,d){c.push(d)}),c=(1===d.length?["require"]:["require","exports","module"]).concat(c)));if(M){if(!(e=J))N&&"interactive"===N.readyState||T(document.getElementsByTagName("script"),function(b){if("interactive"===
 b.readyState)return N=b}),e=N;e&&(b||(b=e.getAttribute("data-requiremodule")),g=F[e.getAttribute("data-requirecontext")])}(g?g.defQueue:R).push([b,c,d])};define.amd={jQuery:!0};g.exec=function(b){return eval(b)};g(q)}})(this);
 
-
-var data = [{"name":"Cross Site Scripting","link":"/templates/xss",},{"name":"SQL Injection","link":"/templates/sql-injection",},{"name":"Cross Site Request Forgery","link":"/templates/csrf",},{"name":"Clickjacking","link":"/templates/clickjacking",},{"name":"Broken Authentication and Session Management","link":"/templates/broken-auth-and-session",},{"name":"Unvalidated Redirects and Forwards","link":"/templates/unvalidated-redirects"}]
-
 var vulns = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
-  local: data
+  prefetch: '/boilerplate-templates/typeahead.json'
 });
 
 vulns.initialize();
@@ -57,7 +54,7 @@ $('#vuln .typeahead').typeahead(null, {
       '</div>'
     ].join('\n'),
     suggestion: function(data){
-      return '<h5><a href="' + 'http://owtf.github.com/boilerplate-templates' + data.link + '">' + data.name + '</a></h5>';
+      return '<h5><a href="' + '/boilerplate-templates' + data.url + '">' + data.name + '</a></h5>';
     }
   }
 });
