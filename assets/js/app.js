@@ -38,7 +38,7 @@ b.readyState)return N=b}),e=N;e&&(b||(b=e.getAttribute("data-requiremodule")),g=
 var vulns = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
-  prefetch: '/typeahead.json'
+  prefetch: '/boilerplate-templates/typeahead.json'
 });
 
 vulns.initialize();
