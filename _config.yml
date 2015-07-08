@@ -6,6 +6,6 @@ author:
   name:       'Abraham Aranguren'
   email:      'name.surname@owasp.org'
 markdown:     kramdown
-pygments:    true
+highlighter:    true
 future:      true
 baseurl:  //owtf.github.io/boilerplate-templates
