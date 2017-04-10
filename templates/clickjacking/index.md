@@ -26,5 +26,5 @@ To view details on the testing of clickjacking visit:- [OWASP Testing for Clickj
 
 CVSS Base Score:
 ----------------------------
-[ 4.3 (AV:N/AC:M/AU:N/C:N/I:P/A:N)
-](http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/AU:N/C:N/I:P/A:N)&version=2.0)
+[ 4.3 (AV:N/AC:M/Au:N/C:N/I:P/A:N)
+](http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/Au:N/C:N/I:P/A:N)&version=2.0)
