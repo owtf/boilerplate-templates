@@ -30,4 +30,4 @@ Also see: [OWASP CSRF prevention without Synchronizer token](https://www.owasp.o
 
 CVSS Base Score:
 -----------------------------
-[6.8(AV:N/AC:M/AU:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:M/AU:N/C:P/I:P/A:P%29&version=2.0)
+[6.8(AV:N/AC:M/Au:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:M/Au:N/C:P/I:P/A:P%29&version=2.0)

@@ -8,9 +8,9 @@ The **boilerplate-templates** `gh-pages` branch is essentially a [Jekyll](http:/
 For example, you want to add a new *template*: **Testing for SSI-Injection**
 
 1. Clone the `gh-pages` branch: `git clone -b gh-pages https://github.com/owtf/boilerplate-templates.git` .
-1. Make a new folder inside the `templates` directory, namely `ssi-injection`.
-1. Add the relevant template in that folder, `templates/ssi-injection`. Templates are essentially **Markdown** formatted files, `index.md`. See the examples given (`templates/<vuln>/index.md`) for how to write a template.
-1. Once you added the template as `index.md` inside the `templates/ssi-injection`, add a new entry in the `_data/vulns.yml` file. This essentially makes a new index for the vulnerability on the site.
+2. Make a new folder inside the `templates` directory, namely `ssi-injection`.
+3. Add the relevant template in that folder, `templates/ssi-injection`. Templates are essentially **Markdown** formatted files, `index.md`. See the examples given (`templates/<vuln>/index.md`) for how to write a template.
+4. Once you added the template as `index.md` inside the `templates/ssi-injection`, add a new entry in the `_data/vulns.yml` file. This essentially makes a new index for the vulnerability on the site.
 For `ssi-injection` it would be: 
 
   ```
@@ -19,4 +19,7 @@ For `ssi-injection` it would be:
     url: /templates/ssi-injection
     author: "<your name>"
   ```
-1. All done, open a pull request!
+
+5. Install [Jekyll](http://jekyllrb.com/) with `gem install jekyll`
+6. Try out your changes to see if it is working as expected. Serve the project using `jekyll serve --baseurl=/boilerplate-templates` 
+7. All done, open a pull request!

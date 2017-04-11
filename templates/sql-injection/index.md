@@ -30,4 +30,4 @@ See SQL-Injection [OWASP Prevention cheat sheet](https://www.owasp.org/index.php
 
 CVSS Base Score:
 ----------------------------
-[7.5 (AV:N/AC:L/AU:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:L/AU:N/C:P/I:P/A:P%29&version=2.0) 
+[7.5 (AV:N/AC:L/Au:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:L/Au:N/C:P/I:P/A:P%29&version=2.0) 

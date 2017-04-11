@@ -1,4 +1,4 @@
-- name: "Cross Site Scripting"
+- name: "Cross Site Scripting - XSS"
   id: 1
   url: /templates/xss
   author: "delta24"
@@ -8,7 +8,7 @@
   url: /templates/sql-injection
   author: "delta24"
 
-- name: "Cross Site Request Forgery"
+- name: "Cross Site Request Forgery - CSRF"
   id: 3
   url: /templates/csrf
   author: "delta24"
